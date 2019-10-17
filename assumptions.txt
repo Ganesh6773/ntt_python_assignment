@@ -1,0 +1,5 @@
+below few assumptions are considered while solving this assignment.
+
+1.  input data ( structured text file ) is given as input to app while starting.
+2.  No need to store data in database or in file. ( though this can be easily achieved using any database of file pickling for in-file storage.)
+3.  input data will not change while app is running, so not kept watch on input file changes. Thus app needs to be restarted if it data is changes.

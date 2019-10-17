@@ -1,0 +1,16 @@
+interface GigabitEthernet0/0
+ description to-LAN
+ ip address 172.16.1.2 255.255.255.0
+!
+interface GigabitEthernet0/1
+ ip address 10.66.0.71 255.255.255.252
+ description CA-BBAABB3-1_AGSW-1 Gi0/3 VL331
+!
+interface GigabitEthernet0/0
+ ip address 172.16.2.1 255.255.255.0
+ description to-LAN-2
+!
+interface Loopback0
+ description Loopback
+ ip address 192.168.1.1 255.255.255.255
+!
