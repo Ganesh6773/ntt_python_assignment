@@ -17,12 +17,12 @@ def setup_app():
 
 
 @app.route('/', methods=['GET'])
-def index2():
-    return jsonify({'about': 'test'})
+def index_route():
+    return jsonify({'about': 'python assignment'})
 
 
 @app.route('/interface/<path:interface>', methods=['GET'])
-def index(interface):
+def interface_route(interface):
     if(interface == 'all'):
         return jsonify(fileParser.getAllInterfaces())
     else:
